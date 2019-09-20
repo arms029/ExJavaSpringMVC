@@ -36,11 +36,10 @@ public class HomeController {
 		return modelAndView;
 	}
 	
-	@ResponseBody
-	@RequestMapping("/url-do-tio-putin-priviet-@?7")
 	@Transactional
+	@ResponseBody
+	@RequestMapping("/url-do-tio-putin-priviet-humus")
 	public String urlDoTioPutin() {
-		
 		Usuario usuario = new Usuario();
 		usuario.setNome("Admin");
 		usuario.setEmail("admin@casadocodigo.com.br");
