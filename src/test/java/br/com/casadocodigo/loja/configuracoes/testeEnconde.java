@@ -8,7 +8,7 @@ public class testeEnconde {
 
 		int i = 0;
 		while (i < 10) {
-			String password = "123456";
+			String password = "putin";
 			BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
 			String hashedPassword = passwordEncoder.encode(password);
 
