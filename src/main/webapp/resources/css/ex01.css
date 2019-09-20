@@ -1,0 +1,83 @@
+.palavra-home{
+    position: absolute;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: bold;
+    color: #D5447E;
+    text-transform:uppercase;
+}
+.eficiencia {
+    top: 40%;
+    left: 90%;
+    transform: rotate(-2deg);
+}
+
+.boas-praticas {
+    top: 70%;
+    left: 20%;
+    transform: translate(-50%, -50%) rotate(10deg) translateZ(1px);
+}
+
+.codigo-limpo {
+    top: 48%;
+    left: 55%;
+    transform: translate(-50%, -50%) rotate(12deg) translateZ(2px);
+}
+
+.css3 {
+    top: 48%;
+    left: 35%;
+    transform: translate(-50%, -50%) rotate(5deg) translateZ(2px);
+}
+
+.html5 {
+    top: 35%;
+    left: 22%;
+    transform: translate(-50%, -50%) rotate(-5deg) translateZ(1px);
+}
+
+.javascript {
+    top: 35%;
+    left: 60%;
+    transform: translate(-50%, -50%) rotate(-5deg) translateZ(1px);
+}
+
+.acessibilidade {
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%) rotate(-5deg) translateZ(0px);
+}
+
+.responsivo {
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%) rotate(-5deg) translateZ(2px);
+}
+
+.otimizacoes {
+    top: 70%;
+    left: 65%;
+    transform: translate(-180%, -180%) rotate(-5deg) translateZ(2px);
+}
+
+.agilidade {
+    top: 75%;
+    left: 35%;
+    transform: translate(-50%, -50%) rotate(5deg) translateZ(1px);
+    opacity: 0.8;
+}
+
+.design {
+    top: 40%;
+    left: 60%;
+    transform: translate(-50%, -50%) rotate(10deg) translateZ(2px);
+    opacity: 0.8;
+}
+
+
+a:link
+{
+	text-decoration:none;
+}
+a{
+	color: #FFF;
+}
