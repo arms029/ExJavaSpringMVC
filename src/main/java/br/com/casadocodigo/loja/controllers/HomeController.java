@@ -49,7 +49,7 @@ public class HomeController {
 		
 		usuarioDao.gravar(usuario);
 		
-		return urlDoTioPutin();
+		return "Url do tio putin executada";
 		
 	}
 	
